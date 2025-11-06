@@ -8,19 +8,26 @@
     <title>Enlazando CSS</title>
 </head>
 <body>
-    <h1>TÍTULO</h1>
+    <h1>Ingredientes</h1>
     <!--A esto se lo conoce como estilo en línea porque se lo da solamente a una línea.
     font size = tamaño de letra.
     Malas prácticas
         1. No se recomienda usar estilo en línea porque por lo general se utiliza cada lenguaje por su lado. Ayuda a la organización y estructuración del proyecto.
-    Se recomienda usar style no como atributo, sino como etiqueta.-->
-    <p style="color: blueviolet; font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum assumenda ad a explicabo esse tempore vero vel harum porro at ipsa qui eligendi, suscipit vitae delectus, quasi sint modi pariatur?</p>
+    Se recomienda usar style no como atributo, sino como etiqueta.
+    <p style="color: blueviolet; font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum assumenda ad a explicabo esse tempore vero vel harum porro at ipsa qui eligendi, suscipit vitae delectus, quasi sint modi pariatur?</p>-->
+    <ul>
+        <!--La etiqueta span es para seleccionar un elemento de forma particular pero se recomiendan utilizar otras formas. Como por ejemplo las clases, dichas clases nos permiten asignarles a los elementos un nombre en particular y es la forma en la que podemos separar a los elementos por clases.-->
+        <li class="faltante">Harina</li>
+        <li>Aceite</li>
+        <li>Leche</li>
+        <li>Sal</li>
+    </ul>
     <!--Ejemplo de como aplicar CSS de otra forma, no es la más recomendada:-->
-    <style>
+    <!--<style>
         h1 {
             color: aquamarine;
         }
     </style>
-    <h2>Ejemplo de como aplicar CSS con la etiqueta link</h2>
+    <h2>Ejemplo de como aplicar CSS con la etiqueta link</h2>-->
 </body>
 </html>

@@ -1,4 +1,11 @@
-h2 {
-    /*Nombre de la propiedad : valor de la propiedad*/
-            color:                 chartreuse;
+/* h2 {
+    /*Nombre de la propiedad : valor de la propiedad } */
+/*Forma de darle estilo por medio de elementos.*/
+    h1 {
+    color: brown;
+}
+
+/*Forma de darle estilo por medio de clases*/
+.faltante {
+    color: red;
 }
