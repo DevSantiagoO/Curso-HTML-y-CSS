@@ -162,4 +162,60 @@ h1 {
 }
 ```
 ## 7. Selectores básicos.
+Los selectores son las formas de seleccionar uno o varios elementos.
+### 7. 1. Selectores por elemento
+Esta forma de selección lo que hace es buscar el nombre del elemento HTML que se llama así y modificarlo.
 
+```
+nombre del elemento html {
+    propiedad : valor de la propiedad
+}
+```
+**Ejemplo**
+
+```css
+li {
+    color: red;
+}
+```
+
+La etiqueta *"span"* es para seleccionar un elemento de forma particular pero se recomiendan utilizar otras formas. 
+
+### 7. 2. Selectores por clases
+Como por ejemplo las clases, dichas clases nos permiten asignarles a los elementos un nombre en particular y es la forma en la que podemos separar a los elementos por clases. Además las clases las podemos usar para muchos elementos.
+Existen muchas estrategias para elegir el nombre de una clase, que se van a ver más adelante. Se representa por medio de un "*.*".
+
+**Ejemplo**
+
+*HTML*
+```html
+<ul>
+    <li class="faltante">Harina</li>
+</ul>
+```
+*CSS*
+```css
+.faltante {
+    color: red;
+}
+```
+
+### 7. 3 Selectores por ID
+El selector por ID es aquel que solo se le puede dar a un elemento en toda la página. Se representa por medio de un "*#*". 
+NO se recomienda utilizar el mismo ID para más de un elemento.
+
+**Ejemplo**
+
+```HTML
+    <ul>
+        <li id="ingrediente-secreto">Aceite</li>
+    </ul>
+```
+
+```CSS
+#ingrediente-secreto {
+    color: burlywood;
+}
+```
+
+## 8. Propiedades de fuente y texto.
